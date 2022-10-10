@@ -1,12 +1,11 @@
 
-
-local hello = Instance.new("ScreenGui")
-hello.Name = "                                 "
-hello.Parent = workspace
+local  = Instance.new("ScreenGui")
+.Name = "                               "
+.Parent = workspace
 
 local design = Instance.new("Folder")
 design.Name = "DESIGN"
-design.Parent = hello
+design.Parent = 
 
 local base = Instance.new("Frame")
 base.BackgroundColor3 = Color3.new(0, 0, 0)
