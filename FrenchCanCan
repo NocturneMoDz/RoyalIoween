@@ -1,7 +1,7 @@
 
 local french = Instance.new("ScreenGui")
 french.Name = "FRENCH"
-french.Parent = workspace
+french.Parent = game.CoreGui
 
 local design = Instance.new("Folder")
 design.Name = "DESIGN"
@@ -20,397 +20,33 @@ local animation = Instance.new("LocalScript")
 animation.Name = "ANIMATION"
 animation.Parent = base
 
-local acceuille = Instance.new("Frame")
-acceuille.BackgroundColor3 = Color3.new(1, 1, 1)
-acceuille.BackgroundTransparency = 1
-acceuille.BorderSizePixel = 0
-acceuille.Position = UDim2.new(0, 0, 0.0463790894, 0)
-acceuille.Size = UDim2.new(0, 199, 0, 211)
-acceuille.Name = "Acceuille"
-acceuille.Parent = base
-
-local box = Instance.new("Folder")
-box.Name = "BOX"
-box.Parent = acceuille
-
-local twitchbox = Instance.new("TextBox")
-twitchbox.Font = Enum.Font.SourceSansBold
-twitchbox.Text = "COMING SOON"
-twitchbox.TextColor3 = Color3.new(1, 1, 1)
-twitchbox.TextSize = 12
-twitchbox.BackgroundColor3 = Color3.new(0, 0, 0)
-twitchbox.BorderSizePixel = 0
-twitchbox.Position = UDim2.new(0.230864257, 0, 0.560505509, 0)
-twitchbox.Size = UDim2.new(0, 136, 0, 13)
-twitchbox.Name = "Twitch box"
-twitchbox.Parent = box
-
-local uicorner = Instance.new("UICorner")
-uicorner.Parent = twitchbox
-
-local fr = Instance.new("TextBox")
-fr.Font = Enum.Font.SourceSansBold
-fr.Text = "FRENCH CANCAN"
-fr.TextColor3 = Color3.new(1, 1, 1)
-fr.TextScaled = true
-fr.TextSize = 12
-fr.TextWrapped = true
-fr.BackgroundColor3 = Color3.new(0, 0, 0)
-fr.BorderSizePixel = 0
-fr.Position = UDim2.new(0.230864257, 0, 0.708318174, 0)
-fr.Size = UDim2.new(0, 136, 0, 13)
-fr.Name = "FR"
-fr.Parent = box
-
-local uicorner_2 = Instance.new("UICorner")
-uicorner_2.Parent = fr
-
-local local_script = Instance.new("LocalScript")
-local_script.Parent = fr
-
-local youtubebox = Instance.new("TextBox")
-youtubebox.Font = Enum.Font.SourceSansBold
-youtubebox.Text = "qK5R4EUfvU"
-youtubebox.TextColor3 = Color3.new(1, 1, 1)
-youtubebox.TextSize = 12
-youtubebox.BackgroundColor3 = Color3.new(0, 0, 0)
-youtubebox.BorderSizePixel = 0
-youtubebox.Position = UDim2.new(0.230864257, 0, 0.405000627, 0)
-youtubebox.Size = UDim2.new(0, 136, 0, 13)
-youtubebox.Name = "Youtube box"
-youtubebox.Parent = box
-
-local uicorner_3 = Instance.new("UICorner")
-uicorner_3.Parent = youtubebox
-
-local local_script_2 = Instance.new("LocalScript")
-local_script_2.Parent = youtubebox
-
-local label_normal = Instance.new("Folder")
-label_normal.Name = "Label Normal"
-label_normal.Parent = acceuille
-
-local dev = Instance.new("TextLabel")
-dev.Font = Enum.Font.SourceSansLight
-dev.Text = "Dev :"
-dev.TextColor3 = Color3.new(1, 1, 1)
-dev.TextSize = 15
-dev.TextStrokeColor3 = Color3.new(0.333333, 0.666667, 1)
-dev.BackgroundColor3 = Color3.new(1, 1, 1)
-dev.BackgroundTransparency = 1
-dev.BorderSizePixel = 0
-dev.Position = UDim2.new(0.0954957902, 0, 0.125227287, 0)
-dev.Size = UDim2.new(0, 19, 0, 11)
-dev.Name = "Dev"
-dev.Parent = label_normal
-
-local owner = Instance.new("TextLabel")
-owner.Font = Enum.Font.SourceSansLight
-owner.Text = "Owner :"
-owner.TextColor3 = Color3.new(1, 1, 1)
-owner.TextSize = 13
-owner.TextStrokeColor3 = Color3.new(0.333333, 0.666667, 1)
-owner.BackgroundColor3 = Color3.new(1, 1, 1)
-owner.BackgroundTransparency = 1
-owner.BorderSizePixel = 0
-owner.Position = UDim2.new(0.0854455382, 0, 0.202228993, 0)
-owner.Size = UDim2.new(0, 32, 0, 18)
-owner.Name = "Owner"
-owner.Parent = label_normal
-
-local image = Instance.new("Folder")
-image.Name = "Image"
-image.Parent = acceuille
-
-local fondateur = Instance.new("ImageLabel")
-fondateur.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
-fondateur.BackgroundColor3 = Color3.new(1, 1, 1)
-fondateur.BackgroundTransparency = 1
-fondateur.Position = UDim2.new(0.397080302, 0, 0.0760589167, 0)
-fondateur.Size = UDim2.new(0, 43, 0, 42)
-fondateur.Name = "Fondateur"
-fondateur.Parent = image
-
-local flases = Instance.new("LocalScript")
-flases.Name = "flases"
-flases.Parent = fondateur
-
-local treus = Instance.new("LocalScript")
-treus.Name = "treus"
-treus.Parent = fondateur
-
-local f2 = Instance.new("ImageLabel")
-f2.Image = "http://www.roblox.com/asset/?id=10651161778"
-f2.ImageTransparency = 0.8999999761581421
-f2.BackgroundColor3 = Color3.new(1, 1, 1)
-f2.BackgroundTransparency = 1
-f2.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f2.Size = UDim2.new(1, 0, 0.911095381, 0)
-f2.Name = "F2"
-f2.Parent = fondateur
-
-local f3 = Instance.new("ImageLabel")
-f3.Image = "http://www.roblox.com/asset/?id=10651162285"
-f3.ImageTransparency = 0.8999999761581421
-f3.BackgroundColor3 = Color3.new(1, 1, 1)
-f3.BackgroundTransparency = 1
-f3.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f3.Size = UDim2.new(1, 0, 0.911095381, 0)
-f3.Name = "F3"
-f3.Parent = fondateur
-
-local f4 = Instance.new("ImageLabel")
-f4.Image = "http://www.roblox.com/asset/?id=10651162797"
-f4.ImageTransparency = 0.8999999761581421
-f4.BackgroundColor3 = Color3.new(0, 0, 0)
-f4.BackgroundTransparency = 1
-f4.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f4.Size = UDim2.new(1, 0, 0.911095381, 0)
-f4.Name = "F4"
-f4.Parent = fondateur
-
-local f5 = Instance.new("ImageLabel")
-f5.Image = "http://www.roblox.com/asset/?id=10651163277"
-f5.ImageTransparency = 0.8999999761581421
-f5.BackgroundColor3 = Color3.new(1, 1, 1)
-f5.BackgroundTransparency = 1
-f5.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f5.Size = UDim2.new(1, 0, 0.911095381, 0)
-f5.Name = "F5"
-f5.Parent = fondateur
-
-local f6 = Instance.new("ImageLabel")
-f6.Image = "http://www.roblox.com/asset/?id=10651163590"
-f6.ImageTransparency = 0.8999999761581421
-f6.BackgroundColor3 = Color3.new(1, 1, 1)
-f6.BackgroundTransparency = 1
-f6.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f6.Size = UDim2.new(1, 0, 0.911095381, 0)
-f6.Name = "F6"
-f6.Parent = fondateur
-
-local f7 = Instance.new("ImageLabel")
-f7.Image = "http://www.roblox.com/asset/?id=10651163995"
-f7.ImageTransparency = 0.8999999761581421
-f7.BackgroundColor3 = Color3.new(1, 1, 1)
-f7.BackgroundTransparency = 1
-f7.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f7.Size = UDim2.new(1, 0, 0.911095381, 0)
-f7.Name = "F7"
-f7.Parent = fondateur
-
-local f8 = Instance.new("ImageLabel")
-f8.Image = "http://www.roblox.com/asset/?id=10651164322"
-f8.ImageTransparency = 0.8999999761581421
-f8.BackgroundColor3 = Color3.new(1, 1, 1)
-f8.BackgroundTransparency = 1
-f8.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f8.Size = UDim2.new(1, 0, 0.911095381, 0)
-f8.Name = "F8"
-f8.Parent = fondateur
-
-local f1 = Instance.new("ImageLabel")
-f1.Image = "http://www.roblox.com/asset/?id=10651161325"
-f1.ImageTransparency = 0.8999999761581421
-f1.AnchorPoint = Vector2.new(0.5, 0.5)
-f1.BackgroundColor3 = Color3.new(1, 1, 1)
-f1.BackgroundTransparency = 1
-f1.BorderSizePixel = 0
-f1.Position = UDim2.new(0.5, 0, 0.54445225, 0)
-f1.Size = UDim2.new(1, 0, 0.911095381, 0)
-f1.ZIndex = 10
-f1.Name = "F1"
-f1.Parent = fondateur
-
-local google = Instance.new("ImageLabel")
-google.Image = "rbxassetid://1091572755"
-google.BackgroundColor3 = Color3.new(1, 1, 1)
-google.BackgroundTransparency = 1
-google.Position = UDim2.new(0.0954957902, 0, 0.544890046, 0)
-google.Size = UDim2.new(0, 18, 0, 19)
-google.Name = "Google"
-google.Parent = image
-
-local youtube = Instance.new("ImageLabel")
-youtube.Image = "rbxassetid://1275974017"
-youtube.BackgroundColor3 = Color3.new(1, 1, 1)
-youtube.BackgroundTransparency = 1
-youtube.Position = UDim2.new(0.0954957902, 0, 0.692575634, 0)
-youtube.Size = UDim2.new(0, 18, 0, 19)
-youtube.Name = "Youtube"
-youtube.Parent = image
-
-local discord = Instance.new("ImageLabel")
-discord.Image = "rbxassetid://8387379647"
-discord.BackgroundColor3 = Color3.new(1, 1, 1)
-discord.BackgroundTransparency = 1
-discord.BorderColor3 = Color3.new(0.333333, 0.666667, 1)
-discord.BorderMode = Enum.BorderMode.Inset
-discord.BorderSizePixel = 100
-discord.Position = UDim2.new(0.0954957902, 0, 0.401032209, 0)
-discord.Size = UDim2.new(0, 18, 0, 16)
-discord.Name = "Discord"
-discord.Parent = image
-
-local check = Instance.new("ImageLabel")
-check.Image = "rbxassetid://4485364377"
-check.BackgroundColor3 = Color3.new(1, 1, 1)
-check.BackgroundTransparency = 1
-check.Position = UDim2.new(0.772757828, 0, 0.125227287, 0)
-check.Size = UDim2.new(0, 22, 0, 21)
-check.Name = "Check"
-check.Parent = image
-
-local rotation = Instance.new("Script")
-rotation.Name = "Rotation"
-rotation.Parent = check
-
-local label_spcial = Instance.new("Folder")
-label_spcial.Name = "Label Spécial"
-label_spcial.Parent = acceuille
-
-local textequidfile2 = Instance.new("TextLabel")
-textequidfile2.Font = Enum.Font.SourceSansLight
-textequidfile2.Text = "Version : 0.01"
-textequidfile2.TextColor3 = Color3.new(1, 1, 1)
-textequidfile2.TextSize = 11
-textequidfile2.TextStrokeColor3 = Color3.new(1, 1, 1)
-textequidfile2.BackgroundColor3 = Color3.new(1, 1, 1)
-textequidfile2.BackgroundTransparency = 1
-textequidfile2.BorderColor3 = Color3.new(1, 1, 1)
-textequidfile2.BorderSizePixel = 0
-textequidfile2.Position = UDim2.new(0.0522750765, 0, 0.875515461, 0)
-textequidfile2.Size = UDim2.new(0, 56, 0, 19)
-textequidfile2.Name = "Texte qui défile 2"
-textequidfile2.Parent = label_spcial
-
-local local_script_3 = Instance.new("LocalScript")
-local_script_3.Parent = textequidfile2
-
-local textequidfile3 = Instance.new("TextLabel")
-textequidfile3.Font = Enum.Font.SourceSansLight
-textequidfile3.Text = "Update : 07/10/22"
-textequidfile3.TextColor3 = Color3.new(1, 1, 1)
-textequidfile3.TextSize = 11
-textequidfile3.TextStrokeColor3 = Color3.new(1, 1, 1)
-textequidfile3.BackgroundColor3 = Color3.new(1, 1, 1)
-textequidfile3.BackgroundTransparency = 1
-textequidfile3.BorderColor3 = Color3.new(1, 1, 1)
-textequidfile3.BorderSizePixel = 0
-textequidfile3.Position = UDim2.new(0.531224251, 0, 0.875515461, 0)
-textequidfile3.Size = UDim2.new(0, 79, 0, 19)
-textequidfile3.Name = "Texte qui défile 3"
-textequidfile3.Parent = label_spcial
-
-local local_script_4 = Instance.new("LocalScript")
-local_script_4.Parent = textequidfile3
-
-local contour_profil = Instance.new("Frame")
-contour_profil.BackgroundColor3 = Color3.new(1, 1, 1)
-contour_profil.BackgroundTransparency = 0.699999988079071
-contour_profil.Position = UDim2.new(0.0322449654, 0, 0.0540404841, 0)
-contour_profil.Size = UDim2.new(0, 128, 0, 55)
-contour_profil.Name = "Contour Profil"
-contour_profil.Parent = acceuille
-
-local uicorner_4 = Instance.new("UICorner")
-uicorner_4.Parent = contour_profil
-
-local contourcarrvert = Instance.new("Frame")
-contourcarrvert.BackgroundColor3 = Color3.new(1, 1, 1)
-contourcarrvert.BackgroundTransparency = 0.699999988079071
-contourcarrvert.Position = UDim2.new(0.710745811, 0, 0.0540404841, 0)
-contourcarrvert.Size = UDim2.new(0, 47, 0, 55)
-contourcarrvert.Name = "Contour Carré vert"
-contourcarrvert.Parent = acceuille
-
-local uicorner_5 = Instance.new("UICorner")
-uicorner_5.Parent = contourcarrvert
-
-local carr_vert = Instance.new("Frame")
-carr_vert.BackgroundColor3 = Color3.new(0.333333, 1, 0.498039)
-carr_vert.BackgroundTransparency = 0.699999988079071
-carr_vert.Position = UDim2.new(0.733644426, 0, 0.0760589167, 0)
-carr_vert.Size = UDim2.new(0, 38, 0, 46)
-carr_vert.Name = "Carré Vert"
-carr_vert.Parent = acceuille
-
-local uicorner_6 = Instance.new("UICorner")
-uicorner_6.Parent = carr_vert
-
-local contour_version = Instance.new("Frame")
-contour_version.BackgroundColor3 = Color3.new(1, 1, 1)
-contour_version.BackgroundTransparency = 0.699999988079071
-contour_version.Position = UDim2.new(0.0322449654, 0, 0.861134291, 0)
-contour_version.Size = UDim2.new(0, 183, 0, 24)
-contour_version.Name = "Contour Version"
-contour_version.Parent = acceuille
-
-local uicorner_7 = Instance.new("UICorner")
-uicorner_7.Parent = contour_version
-
-local french_can_can = Instance.new("TextBox")
-french_can_can.Font = Enum.Font.SourceSansBold
-french_can_can.Text = "FRENCH CANCAN"
-french_can_can.TextColor3 = Color3.new(1, 1, 1)
-french_can_can.BackgroundColor3 = Color3.new(0, 0, 0)
-french_can_can.BackgroundTransparency = 0.6000000238418579
-french_can_can.BorderSizePixel = 0
-french_can_can.Position = UDim2.new(0.348767757, 0, 0.231039196, 0)
-french_can_can.Size = UDim2.new(0, 62, 0, 13)
-french_can_can.Name = "French CanCan"
-french_can_can.Parent = acceuille
-
-local uicorner_8 = Instance.new("UICorner")
-uicorner_8.Parent = french_can_can
-
-local frame = Instance.new("Frame")
-frame.BackgroundColor3 = Color3.new(1, 1, 1)
-frame.BackgroundTransparency = 0.699999988079071
-frame.Position = UDim2.new(0.0322449654, 0, 0.356115848, 0)
-frame.Size = UDim2.new(0, 182, 0, 96)
-frame.Parent = acceuille
-
-local uicorner_9 = Instance.new("UICorner")
-uicorner_9.Parent = frame
-
-local frame_2 = Instance.new("Frame")
-frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
-frame_2.BackgroundTransparency = 0.699999988079071
-frame_2.Position = UDim2.new(0.0534227826, 0, 0.0760589167, 0)
-frame_2.Size = UDim2.new(0, 43, 0, 45)
-frame_2.Parent = acceuille
-
-local uicorner_10 = Instance.new("UICorner")
-uicorner_10.Parent = frame_2
-
 local button = Instance.new("Folder")
 button.Name = "Button"
 button.Parent = base
 
-local acceuille_2 = Instance.new("ImageButton")
-acceuille_2.Image = "http://www.roblox.com/asset/?id=11089569260"
-acceuille_2.BackgroundColor3 = Color3.new(1, 1, 1)
-acceuille_2.BackgroundTransparency = 1
-acceuille_2.Position = UDim2.new(0.171778187, 0, 0.816428483, 0)
-acceuille_2.Size = UDim2.new(0, 42, 0, 40)
-acceuille_2.Name = "Acceuille"
-acceuille_2.Parent = button
+local acceuille = Instance.new("ImageButton")
+acceuille.Image = "http://www.roblox.com/asset/?id=11089569260"
+acceuille.BackgroundColor3 = Color3.new(1, 1, 1)
+acceuille.BackgroundTransparency = 1
+acceuille.Position = UDim2.new(0.171778187, 0, 0.816428483, 0)
+acceuille.Size = UDim2.new(0, 42, 0, 40)
+acceuille.Name = "Acceuille"
+acceuille.Parent = button
 
 local page1 = Instance.new("LocalScript")
 page1.Name = "Page 1"
-page1.Parent = acceuille_2
+page1.Parent = acceuille
 
 local uigradient = Instance.new("UIGradient")
-uigradient.Parent = acceuille_2
+uigradient.Parent = acceuille
 
 local animation_2 = Instance.new("LocalScript")
 animation_2.Name = "Animation"
-animation_2.Parent = acceuille_2
+animation_2.Parent = acceuille
 
 local animation2 = Instance.new("LocalScript")
 animation2.Name = "Animation 2"
-animation2.Parent = acceuille_2
+animation2.Parent = acceuille
 
 local object = Instance.new("ImageLabel")
 object.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
@@ -434,8 +70,8 @@ local page2 = Instance.new("LocalScript")
 page2.Name = "Page 2"
 page2.Parent = script
 
-local uicorner_11 = Instance.new("UICorner")
-uicorner_11.Parent = script
+local uicorner = Instance.new("UICorner")
+uicorner.Parent = script
 
 local animation_3 = Instance.new("LocalScript")
 animation_3.Name = "Animation"
@@ -454,19 +90,19 @@ object_2.Size = UDim2.new(0, 25, 0, 25)
 object_2.Name = "object"
 object_2.Parent = animation2_2
 
-local frame_3 = Instance.new("Frame")
-frame_3.BackgroundColor3 = Color3.new(1, 1, 1)
-frame_3.BackgroundTransparency = 0.800000011920929
-frame_3.Position = UDim2.new(0.0325723253, 0, 0.806857109, 0)
-frame_3.Size = UDim2.new(0, 182, 0, 47)
-frame_3.Parent = button
+local frame = Instance.new("Frame")
+frame.BackgroundColor3 = Color3.new(1, 1, 1)
+frame.BackgroundTransparency = 0.800000011920929
+frame.Position = UDim2.new(0.0325723253, 0, 0.806857109, 0)
+frame.Size = UDim2.new(0, 182, 0, 47)
+frame.Parent = button
 
-local uicorner_12 = Instance.new("UICorner")
-uicorner_12.Parent = frame_3
+local uicorner_2 = Instance.new("UICorner")
+uicorner_2.Parent = frame
 
-local uicorner_13 = Instance.new("UICorner")
-uicorner_13.CornerRadius = UDim.new(0, 12)
-uicorner_13.Parent = base
+local uicorner_3 = Instance.new("UICorner")
+uicorner_3.CornerRadius = UDim.new(0, 12)
+uicorner_3.Parent = base
 
 local dgrader = Instance.new("UIGradient")
 dgrader.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.new(0.635294, 1, 0.721569)), ColorSequenceKeypoint.new(1, Color3.new(0.305882, 1, 0.85098))})
@@ -998,23 +634,23 @@ ouverture.Size = UDim2.new(0, 31, 0, 24)
 ouverture.Name = "Ouverture"
 ouverture.Parent = design
 
-local local_script_5 = Instance.new("LocalScript")
-local_script_5.Parent = ouverture
+local local_script = Instance.new("LocalScript")
+local_script.Parent = ouverture
 
-local contour_profil_2 = Instance.new("Frame")
-contour_profil_2.BackgroundColor3 = Color3.new(1, 1, 1)
-contour_profil_2.BackgroundTransparency = 0.699999988079071
-contour_profil_2.Position = UDim2.new(-0.127483815, 0, -0.201333344, 0)
-contour_profil_2.Size = UDim2.new(0, 37, 0, 33)
-contour_profil_2.Name = "Contour Profil"
-contour_profil_2.Parent = ouverture
+local contour_profil = Instance.new("Frame")
+contour_profil.BackgroundColor3 = Color3.new(1, 1, 1)
+contour_profil.BackgroundTransparency = 0.699999988079071
+contour_profil.Position = UDim2.new(-0.127483815, 0, -0.201333344, 0)
+contour_profil.Size = UDim2.new(0, 37, 0, 33)
+contour_profil.Name = "Contour Profil"
+contour_profil.Parent = ouverture
 
-local uicorner_14 = Instance.new("UICorner")
-uicorner_14.Parent = contour_profil_2
+local uicorner_4 = Instance.new("UICorner")
+uicorner_4.Parent = contour_profil
 
 local animation_11 = Instance.new("LocalScript")
 animation_11.Name = "Animation"
-animation_11.Parent = contour_profil_2
+animation_11.Parent = contour_profil
 
 local notifications = Instance.new("Frame")
 notifications.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -1024,8 +660,8 @@ notifications.Size = UDim2.new(0, 303, 0, 93)
 notifications.Name = "Notifications"
 notifications.Parent = design
 
-local uicorner_15 = Instance.new("UICorner")
-uicorner_15.Parent = notifications
+local uicorner_5 = Instance.new("UICorner")
+uicorner_5.Parent = notifications
 
 local text_label_8 = Instance.new("TextLabel")
 text_label_8.Font = Enum.Font.SourceSans
@@ -1039,105 +675,105 @@ text_label_8.Position = UDim2.new(0.0320923477, 0, 0.634408593, 0)
 text_label_8.Size = UDim2.new(0, 283, 0, 28)
 text_label_8.Parent = notifications
 
-local fondateur_2 = Instance.new("ImageLabel")
-fondateur_2.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
-fondateur_2.BackgroundColor3 = Color3.new(1, 1, 1)
-fondateur_2.BackgroundTransparency = 1
-fondateur_2.Position = UDim2.new(0.426783264, 0, 0.0868116021, 0)
-fondateur_2.Size = UDim2.new(0, 43, 0, 42)
-fondateur_2.Name = "Fondateur"
-fondateur_2.Parent = notifications
+local fondateur = Instance.new("ImageLabel")
+fondateur.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
+fondateur.BackgroundColor3 = Color3.new(1, 1, 1)
+fondateur.BackgroundTransparency = 1
+fondateur.Position = UDim2.new(0.426783264, 0, 0.0868116021, 0)
+fondateur.Size = UDim2.new(0, 43, 0, 42)
+fondateur.Name = "Fondateur"
+fondateur.Parent = notifications
 
-local flases_2 = Instance.new("LocalScript")
-flases_2.Name = "flases"
-flases_2.Parent = fondateur_2
+local flases = Instance.new("LocalScript")
+flases.Name = "flases"
+flases.Parent = fondateur
 
-local treus_2 = Instance.new("LocalScript")
-treus_2.Name = "treus"
-treus_2.Parent = fondateur_2
+local treus = Instance.new("LocalScript")
+treus.Name = "treus"
+treus.Parent = fondateur
 
-local f2_2 = Instance.new("ImageLabel")
-f2_2.Image = "http://www.roblox.com/asset/?id=10651161778"
-f2_2.ImageTransparency = 0.8999999761581421
-f2_2.BackgroundColor3 = Color3.new(1, 1, 1)
-f2_2.BackgroundTransparency = 1
-f2_2.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f2_2.Size = UDim2.new(1, 0, 0.911095381, 0)
-f2_2.Name = "F2"
-f2_2.Parent = fondateur_2
+local f2 = Instance.new("ImageLabel")
+f2.Image = "http://www.roblox.com/asset/?id=10651161778"
+f2.ImageTransparency = 0.8999999761581421
+f2.BackgroundColor3 = Color3.new(1, 1, 1)
+f2.BackgroundTransparency = 1
+f2.Position = UDim2.new(0, 0, 0.0889045447, 0)
+f2.Size = UDim2.new(1, 0, 0.911095381, 0)
+f2.Name = "F2"
+f2.Parent = fondateur
 
-local f3_2 = Instance.new("ImageLabel")
-f3_2.Image = "http://www.roblox.com/asset/?id=10651162285"
-f3_2.ImageTransparency = 0.8999999761581421
-f3_2.BackgroundColor3 = Color3.new(1, 1, 1)
-f3_2.BackgroundTransparency = 1
-f3_2.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f3_2.Size = UDim2.new(1, 0, 0.911095381, 0)
-f3_2.Name = "F3"
-f3_2.Parent = fondateur_2
+local f3 = Instance.new("ImageLabel")
+f3.Image = "http://www.roblox.com/asset/?id=10651162285"
+f3.ImageTransparency = 0.8999999761581421
+f3.BackgroundColor3 = Color3.new(1, 1, 1)
+f3.BackgroundTransparency = 1
+f3.Position = UDim2.new(0, 0, 0.0889045447, 0)
+f3.Size = UDim2.new(1, 0, 0.911095381, 0)
+f3.Name = "F3"
+f3.Parent = fondateur
 
-local f4_2 = Instance.new("ImageLabel")
-f4_2.Image = "http://www.roblox.com/asset/?id=10651162797"
-f4_2.ImageTransparency = 0.8999999761581421
-f4_2.BackgroundColor3 = Color3.new(0, 0, 0)
-f4_2.BackgroundTransparency = 1
-f4_2.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f4_2.Size = UDim2.new(1, 0, 0.911095381, 0)
-f4_2.Name = "F4"
-f4_2.Parent = fondateur_2
+local f4 = Instance.new("ImageLabel")
+f4.Image = "http://www.roblox.com/asset/?id=10651162797"
+f4.ImageTransparency = 0.8999999761581421
+f4.BackgroundColor3 = Color3.new(0, 0, 0)
+f4.BackgroundTransparency = 1
+f4.Position = UDim2.new(0, 0, 0.0889045447, 0)
+f4.Size = UDim2.new(1, 0, 0.911095381, 0)
+f4.Name = "F4"
+f4.Parent = fondateur
 
-local f5_2 = Instance.new("ImageLabel")
-f5_2.Image = "http://www.roblox.com/asset/?id=10651163277"
-f5_2.ImageTransparency = 0.8999999761581421
-f5_2.BackgroundColor3 = Color3.new(1, 1, 1)
-f5_2.BackgroundTransparency = 1
-f5_2.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f5_2.Size = UDim2.new(1, 0, 0.911095381, 0)
-f5_2.Name = "F5"
-f5_2.Parent = fondateur_2
+local f5 = Instance.new("ImageLabel")
+f5.Image = "http://www.roblox.com/asset/?id=10651163277"
+f5.ImageTransparency = 0.8999999761581421
+f5.BackgroundColor3 = Color3.new(1, 1, 1)
+f5.BackgroundTransparency = 1
+f5.Position = UDim2.new(0, 0, 0.0889045447, 0)
+f5.Size = UDim2.new(1, 0, 0.911095381, 0)
+f5.Name = "F5"
+f5.Parent = fondateur
 
-local f6_2 = Instance.new("ImageLabel")
-f6_2.Image = "http://www.roblox.com/asset/?id=10651163590"
-f6_2.ImageTransparency = 0.8999999761581421
-f6_2.BackgroundColor3 = Color3.new(1, 1, 1)
-f6_2.BackgroundTransparency = 1
-f6_2.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f6_2.Size = UDim2.new(1, 0, 0.911095381, 0)
-f6_2.Name = "F6"
-f6_2.Parent = fondateur_2
+local f6 = Instance.new("ImageLabel")
+f6.Image = "http://www.roblox.com/asset/?id=10651163590"
+f6.ImageTransparency = 0.8999999761581421
+f6.BackgroundColor3 = Color3.new(1, 1, 1)
+f6.BackgroundTransparency = 1
+f6.Position = UDim2.new(0, 0, 0.0889045447, 0)
+f6.Size = UDim2.new(1, 0, 0.911095381, 0)
+f6.Name = "F6"
+f6.Parent = fondateur
 
-local f7_2 = Instance.new("ImageLabel")
-f7_2.Image = "http://www.roblox.com/asset/?id=10651163995"
-f7_2.ImageTransparency = 0.8999999761581421
-f7_2.BackgroundColor3 = Color3.new(1, 1, 1)
-f7_2.BackgroundTransparency = 1
-f7_2.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f7_2.Size = UDim2.new(1, 0, 0.911095381, 0)
-f7_2.Name = "F7"
-f7_2.Parent = fondateur_2
+local f7 = Instance.new("ImageLabel")
+f7.Image = "http://www.roblox.com/asset/?id=10651163995"
+f7.ImageTransparency = 0.8999999761581421
+f7.BackgroundColor3 = Color3.new(1, 1, 1)
+f7.BackgroundTransparency = 1
+f7.Position = UDim2.new(0, 0, 0.0889045447, 0)
+f7.Size = UDim2.new(1, 0, 0.911095381, 0)
+f7.Name = "F7"
+f7.Parent = fondateur
 
-local f8_2 = Instance.new("ImageLabel")
-f8_2.Image = "http://www.roblox.com/asset/?id=10651164322"
-f8_2.ImageTransparency = 0.8999999761581421
-f8_2.BackgroundColor3 = Color3.new(1, 1, 1)
-f8_2.BackgroundTransparency = 1
-f8_2.Position = UDim2.new(0, 0, 0.0889045447, 0)
-f8_2.Size = UDim2.new(1, 0, 0.911095381, 0)
-f8_2.Name = "F8"
-f8_2.Parent = fondateur_2
+local f8 = Instance.new("ImageLabel")
+f8.Image = "http://www.roblox.com/asset/?id=10651164322"
+f8.ImageTransparency = 0.8999999761581421
+f8.BackgroundColor3 = Color3.new(1, 1, 1)
+f8.BackgroundTransparency = 1
+f8.Position = UDim2.new(0, 0, 0.0889045447, 0)
+f8.Size = UDim2.new(1, 0, 0.911095381, 0)
+f8.Name = "F8"
+f8.Parent = fondateur
 
-local f1_2 = Instance.new("ImageLabel")
-f1_2.Image = "http://www.roblox.com/asset/?id=10651161325"
-f1_2.ImageTransparency = 0.8999999761581421
-f1_2.AnchorPoint = Vector2.new(0.5, 0.5)
-f1_2.BackgroundColor3 = Color3.new(1, 1, 1)
-f1_2.BackgroundTransparency = 1
-f1_2.BorderSizePixel = 0
-f1_2.Position = UDim2.new(0.5, 0, 0.54445225, 0)
-f1_2.Size = UDim2.new(1, 0, 0.911095381, 0)
-f1_2.ZIndex = 10
-f1_2.Name = "F1"
-f1_2.Parent = fondateur_2
+local f1 = Instance.new("ImageLabel")
+f1.Image = "http://www.roblox.com/asset/?id=10651161325"
+f1.ImageTransparency = 0.8999999761581421
+f1.AnchorPoint = Vector2.new(0.5, 0.5)
+f1.BackgroundColor3 = Color3.new(1, 1, 1)
+f1.BackgroundTransparency = 1
+f1.BorderSizePixel = 0
+f1.Position = UDim2.new(0.5, 0, 0.54445225, 0)
+f1.Size = UDim2.new(1, 0, 0.911095381, 0)
+f1.ZIndex = 10
+f1.Name = "F1"
+f1.Parent = fondateur
 
 local text_label_9 = Instance.new("TextLabel")
 text_label_9.Font = Enum.Font.SourceSans
@@ -1230,8 +866,8 @@ text_label_11.Position = UDim2.new(0.389982104, 0, 0.155228764, 0)
 text_label_11.Size = UDim2.new(0, 227, 0, 35)
 text_label_11.Parent = design
 
-local local_script_6 = Instance.new("LocalScript")
-local_script_6.Parent = text_label_11
+local local_script_2 = Instance.new("LocalScript")
+local_script_2.Parent = text_label_11
 
 --//Modules
 
@@ -1324,192 +960,6 @@ task.spawn(function()
 	
 	
 	
-	
-end)
-
--- LocalScript
-task.spawn(function()
-	local script = local_script
-
-	local oldreq = require
-	local function require(target)
-		if modules[target] then
-			return modules[target]()
-		end
-		return oldreq(target)
-	end
-
-	script.Parent.MouseButton1Click:connect(function()
-	
-		setclipboard(tostring(script.Parent.Text))
-	end)
-	
-	
-end)
-
--- LocalScript
-task.spawn(function()
-	local script = local_script_2
-
-	local oldreq = require
-	local function require(target)
-		if modules[target] then
-			return modules[target]()
-		end
-		return oldreq(target)
-	end
-
-	script.Parent.MouseButton1Click:connect(function()
-	
-		setclipboard(tostring(script.Parent.Text))
-	end)
-	
-	
-end)
-
--- flases
-task.spawn(function()
-	local script = flases
-
-	local oldreq = require
-	local function require(target)
-		if modules[target] then
-			return modules[target]()
-		end
-		return oldreq(target)
-	end
-
-	local f1 = script.Parent.F1
-	local f2 = script.Parent.F2
-	local f3 = script.Parent.F3
-	local f4 = script.Parent.F4
-	local f5 = script.Parent.F5
-	local f6 = script.Parent.F6
-	local f7 = script.Parent.F7
-	local f8 = script.Parent.F8
-	
-	while true do
-		f8.Visible = false
-		wait(0.05)
-		f1.Visible = false
-		wait(0.05)
-		f2.Visible = false
-		wait(0.05)
-		f3.Visible = false
-		wait(0.05)
-		f4.Visible = false
-		wait(0.05)
-		f5.Visible = false
-		wait(0.05)
-		f6.Visible = false
-		wait(0.05)
-		f7.Visible = false
-		wait(0.05)
-	end
-	
-end)
-
--- treus
-task.spawn(function()
-	local script = treus
-
-	local oldreq = require
-	local function require(target)
-		if modules[target] then
-			return modules[target]()
-		end
-		return oldreq(target)
-	end
-
-	local f1 = script.Parent.F1
-	local f2 = script.Parent.F2
-	local f3 = script.Parent.F3
-	local f4 = script.Parent.F4
-	local f5 = script.Parent.F5
-	local f6 = script.Parent.F6
-	local f7 = script.Parent.F7
-	local f8 = script.Parent.F8
-	
-	while true do
-		f1.Visible = true
-		wait(0.05)
-		f2.Visible = true
-		wait(0.05)
-		f3.Visible = true
-		wait(0.05)
-		f4.Visible = true
-		wait(0.05)
-		f5.Visible = true
-		wait(0.05)
-		f6.Visible = true
-		wait(0.05)
-		f7.Visible = true
-		wait(0.05)
-		f8.Visible = true
-		wait(0.05)
-	end
-			
-end)
-
--- Rotation
-task.spawn(function()
-	local script = rotation
-
-	local oldreq = require
-	local function require(target)
-		if modules[target] then
-			return modules[target]()
-		end
-		return oldreq(target)
-	end
-
-	while true do
-		wait(0.025)
-		script.Parent.Rotation = script.Parent.Rotation + 5
-	end
-end)
-
--- LocalScript
-task.spawn(function()
-	local script = local_script_3
-
-	local oldreq = require
-	local function require(target)
-		if modules[target] then
-			return modules[target]()
-		end
-		return oldreq(target)
-	end
-
-	local text = "Version : 0.01"
-	
-	
-	for i = 1, #text do
-		script.Parent.Text = string.sub(text, 1, i)
-		wait(0.04) --This is the speed of the text
-		end
-	
-end)
-
--- LocalScript
-task.spawn(function()
-	local script = local_script_4
-
-	local oldreq = require
-	local function require(target)
-		if modules[target] then
-			return modules[target]()
-		end
-		return oldreq(target)
-	end
-
-	local text = "Update : 10/10/22"
-	
-	
-	for i = 1, #text do
-		script.Parent.Text = string.sub(text, 1, i)
-		wait(0.04) --This is the speed of the text
-		end
 	
 end)
 
@@ -3335,7 +2785,7 @@ task.spawn(function()
 		return oldreq(target)
 	end
 
-	script.Parent.Script.Visible = false
+	
 end)
 
 -- ANTI AFK
@@ -3410,7 +2860,7 @@ end)
 
 -- LocalScript
 task.spawn(function()
-	local script = local_script_5
+	local script = local_script
 
 	local oldreq = require
 	local function require(target)
@@ -3489,7 +2939,7 @@ end)
 
 -- flases
 task.spawn(function()
-	local script = flases_2
+	local script = flases
 
 	local oldreq = require
 	local function require(target)
@@ -3531,7 +2981,7 @@ end)
 
 -- treus
 task.spawn(function()
-	local script = treus_2
+	local script = treus
 
 	local oldreq = require
 	local function require(target)
@@ -3717,7 +3167,7 @@ end)
 
 -- LocalScript
 task.spawn(function()
-	local script = local_script_6
+	local script = local_script_2
 
 	local oldreq = require
 	local function require(target)
