@@ -1,7 +1,8 @@
 
+
 local hello = Instance.new("ScreenGui")
-hello.Name = "                                                                                                "
-hello.Parent = game.CoreGui
+hello.Name = "                                 "
+hello.Parent = workspace
 
 local design = Instance.new("Folder")
 design.Name = "DESIGN"
@@ -3386,7 +3387,9 @@ task.spawn(function()
 	end
 
 	while true do wait()
-	game:GetService("ReplicatedStorage").ErrorLogNetworkFolder.ReportError:Destroy()
+		game:GetService("ReplicatedStorage").ErrorLogNetworkFolder.ReportError:Destroy()
+	
+		game:GetService("ReplicatedStorage").LocalPromptNetwork.PromptShown:Destroy()
 	end
 end)
 
