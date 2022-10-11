@@ -328,13 +328,13 @@ local folder = Instance.new("Folder")
 folder.Parent = script_2
 
 local image_label = Instance.new("ImageLabel")
-image_label.Image = "rbxassetid://5634829223"
+image_label.Image = "rbxassetid://4042159912"
 image_label.ImageTransparency = 0.699999988079071
-image_label.ScaleType = Enum.ScaleType.Crop
+image_label.ScaleType = Enum.ScaleType.Slice
 image_label.BackgroundColor3 = Color3.new(1, 1, 1)
 image_label.BackgroundTransparency = 1
-image_label.Position = UDim2.new(0, 0, 0.0346020758, 0)
-image_label.Size = UDim2.new(0, 197, 0, 333)
+image_label.Position = UDim2.new(0, 0, 0.0170804448, 0)
+image_label.Size = UDim2.new(0, 203, 0, 298)
 image_label.Parent = script_2
 
 local fountain = Instance.new("Frame")
@@ -639,6 +639,7 @@ box.Name = "BOX"
 box.Parent = acceuille_2
 
 local twitchbox = Instance.new("TextBox")
+twitchbox.CursorPosition = -1
 twitchbox.Font = Enum.Font.SourceSansBold
 twitchbox.Text = "COMING SOON"
 twitchbox.TextColor3 = Color3.new(1, 1, 1)
@@ -655,7 +656,7 @@ uicorner_4.Parent = twitchbox
 
 local fr = Instance.new("TextBox")
 fr.Font = Enum.Font.SourceSansBold
-fr.Text = "FRENCH CANCAN"
+fr.Text = "@FrenchCanCanOff"
 fr.TextColor3 = Color3.new(1, 1, 1)
 fr.TextScaled = true
 fr.TextSize = 12
@@ -1030,6 +1031,99 @@ text_label_8.Parent = design
 
 local local_script_6 = Instance.new("LocalScript")
 local_script_6.Parent = text_label_8
+
+local image_label_2 = Instance.new("ImageLabel")
+image_label_2.Image = "rbxassetid://4042159912"
+image_label_2.ScaleType = Enum.ScaleType.Crop
+image_label_2.SliceScale = 15
+image_label_2.BackgroundColor3 = Color3.new(0, 0, 0)
+image_label_2.Position = UDim2.new(0.366726279, 0, 0.176505268, 0)
+image_label_2.Size = UDim2.new(0, 278, 0, 426)
+image_label_2.Parent = design
+
+local uicorner_15 = Instance.new("UICorner")
+uicorner_15.CornerRadius = UDim.new(0, 9)
+uicorner_15.Parent = image_label_2
+
+local text_label_9 = Instance.new("TextLabel")
+text_label_9.Font = Enum.Font.Creepster
+text_label_9.Text = "CHANGELOGS"
+text_label_9.TextColor3 = Color3.new(0, 0, 0)
+text_label_9.TextSize = 50
+text_label_9.BackgroundColor3 = Color3.new(1, 1, 1)
+text_label_9.BackgroundTransparency = 1
+text_label_9.Position = UDim2.new(0.133583695, 0, 0.0300517529, 0)
+text_label_9.Size = UDim2.new(0, 200, 0, 50)
+text_label_9.Parent = image_label_2
+
+local text_label_10 = Instance.new("TextLabel")
+text_label_10.Font = Enum.Font.Creepster
+text_label_10.Text = "- farm 3 boosted"
+text_label_10.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+text_label_10.TextSize = 35
+text_label_10.BackgroundColor3 = Color3.new(1, 1, 1)
+text_label_10.BackgroundTransparency = 1
+text_label_10.Position = UDim2.new(0.00408716965, 0, 0.210802928, 0)
+text_label_10.Size = UDim2.new(0, 273, 0, 50)
+text_label_10.Parent = image_label_2
+
+local frame_4 = Instance.new("Frame")
+frame_4.BackgroundColor3 = Color3.new(1, 1, 1)
+frame_4.Position = UDim2.new(0.00359712238, 0, 0.154301241, 0)
+frame_4.Size = UDim2.new(0, 277, 0, 1)
+frame_4.Parent = image_label_2
+
+local frame_5 = Instance.new("Frame")
+frame_5.BackgroundColor3 = Color3.new(1, 1, 1)
+frame_5.Position = UDim2.new(0.00359712238, 0, 0.407822371, 0)
+frame_5.Size = UDim2.new(0, 277, 0, 1)
+frame_5.Parent = image_label_2
+
+local text_label_11 = Instance.new("TextLabel")
+text_label_11.Font = Enum.Font.Creepster
+text_label_11.Text = "if the auto farm doesn't work quit the game and refresh the page and restart your game."
+text_label_11.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+text_label_11.TextScaled = true
+text_label_11.TextSize = 35
+text_label_11.TextWrapped = true
+text_label_11.BackgroundColor3 = Color3.new(1, 1, 1)
+text_label_11.BackgroundTransparency = 1
+text_label_11.Position = UDim2.new(0.00408716872, 0, 0.454934388, 0)
+text_label_11.Size = UDim2.new(0, 273, 0, 50)
+text_label_11.Parent = image_label_2
+
+local text_label_12 = Instance.new("TextLabel")
+text_label_12.Font = Enum.Font.Creepster
+text_label_12.Text = "11/10/22"
+text_label_12.TextColor3 = Color3.new(0.333333, 1, 0.498039)
+text_label_12.TextSize = 35
+text_label_12.BackgroundColor3 = Color3.new(1, 1, 1)
+text_label_12.BackgroundTransparency = 1
+text_label_12.Position = UDim2.new(0.00408716779, 0, 0.898596406, 0)
+text_label_12.Size = UDim2.new(0, 273, 0, 50)
+text_label_12.Parent = image_label_2
+
+local frame_6 = Instance.new("Frame")
+frame_6.BackgroundColor3 = Color3.new(1, 1, 1)
+frame_6.Position = UDim2.new(0.00359712238, 0, 0.565099359, 0)
+frame_6.Size = UDim2.new(0, 277, 0, 1)
+frame_6.Parent = image_label_2
+
+local local_script_7 = Instance.new("LocalScript")
+local_script_7.Parent = image_label_2
+
+local text_label_13 = Instance.new("TextLabel")
+text_label_13.Font = Enum.Font.Creepster
+text_label_13.Text = "TRADING BAN RISK !"
+text_label_13.TextColor3 = Color3.new(0.666667, 0, 0)
+text_label_13.TextScaled = true
+text_label_13.TextSize = 35
+text_label_13.TextWrapped = true
+text_label_13.BackgroundColor3 = Color3.new(1, 1, 1)
+text_label_13.BackgroundTransparency = 1
+text_label_13.Position = UDim2.new(0.00408716872, 0, 0.612211347, 0)
+text_label_13.Size = UDim2.new(0, 273, 0, 50)
+text_label_13.Parent = image_label_2
 
 --//Modules
 
@@ -1611,6 +1705,8 @@ task.spawn(function()
 						fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
 					end
 				end
+				
+			
 			end)
 	
 		else
@@ -2653,6 +2749,16 @@ task.spawn(function()
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0.8,0,0.8,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = true
 			
+			wait()
+			local player = game.Players.LocalPlayer
+			local character = player.Character or player.CharacterAdded:Wait()
+			local humanoid = character.Humanoid
+	
+			humanoid.Seated:Connect(function(active, seat)
+				humanoid:ChangeState(Enum.HumanoidStateType.Running)
+			end)
+			wait(0.5)
+			
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-614, 99, -777)
 			wait(1)
 	
@@ -2665,6 +2771,10 @@ task.spawn(function()
 					end
 				end
 	
+			
+				for _,v in next, game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Animator:GetPlayingAnimationTracks() do
+					v:AdjustSpeed(300)
+				end
 			until false
 	
 	
@@ -3298,4 +3408,20 @@ task.spawn(function()
 	end
 
 	script.Parent.Visible = false
+end)
+
+-- LocalScript
+task.spawn(function()
+	local script = local_script_7
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	wait(4)
+	script.Parent:Destroy()
 end)
