@@ -1,6 +1,6 @@
 
 local french = Instance.new("ScreenGui")
-french.Name = "FRENCH"
+french.Name = "FRENCH1"
 french.Parent = game.CoreGui
 
 local design = Instance.new("Folder")
@@ -641,9 +641,10 @@ box.Parent = acceuille_2
 local twitchbox = Instance.new("TextBox")
 twitchbox.CursorPosition = -1
 twitchbox.Font = Enum.Font.SourceSansBold
-twitchbox.Text = "COMING SOON"
+twitchbox.Text = "@FrenchCanCanOff"
 twitchbox.TextColor3 = Color3.new(1, 1, 1)
 twitchbox.TextSize = 12
+twitchbox.TextWrapped = true
 twitchbox.BackgroundColor3 = Color3.new(0, 0, 0)
 twitchbox.BorderSizePixel = 0
 twitchbox.Position = UDim2.new(0.230864257, 0, 0.560505509, 0)
@@ -655,10 +656,10 @@ local uicorner_4 = Instance.new("UICorner")
 uicorner_4.Parent = twitchbox
 
 local fr = Instance.new("TextBox")
+fr.CursorPosition = -1
 fr.Font = Enum.Font.SourceSansBold
-fr.Text = "@FrenchCanCanOff"
+fr.Text = "French CanCan"
 fr.TextColor3 = Color3.new(1, 1, 1)
-fr.TextScaled = true
 fr.TextSize = 12
 fr.TextWrapped = true
 fr.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -829,7 +830,7 @@ f1.Name = "F1"
 f1.Parent = fondateur
 
 local google = Instance.new("ImageLabel")
-google.Image = "rbxassetid://1091572755"
+google.Image = "rbxassetid://10762290938"
 google.BackgroundColor3 = Color3.new(1, 1, 1)
 google.BackgroundTransparency = 1
 google.Position = UDim2.new(0.0954957902, 0, 0.544890046, 0)
