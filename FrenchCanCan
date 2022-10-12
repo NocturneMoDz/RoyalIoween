@@ -1,8 +1,7 @@
 
-
 local french = Instance.new("ScreenGui")
-french.Name = "FRENCH112"
-french.Parent = game.CoreGui
+french.Name = "FRENCH"
+french.Parent = workspace
 
 local design = Instance.new("Folder")
 design.Name = "DESIGN"
@@ -261,7 +260,7 @@ animation_5.Parent = farm2
 local chest = Instance.new("Frame")
 chest.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
 chest.BorderSizePixel = 0
-chest.Position = UDim2.new(0.109364271, 0, 0.210999995, 0)
+chest.Position = UDim2.new(0.109364271, 0, 0.362785697, 0)
 chest.Size = UDim2.new(0, 20, 0, 20)
 chest.Name = "CHEST"
 chest.Parent = script_2
@@ -405,20 +404,20 @@ local animation_7 = Instance.new("LocalScript")
 animation_7.Name = "Animation"
 animation_7.Parent = fountain
 
-local car = Instance.new("Frame")
-car.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
-car.BorderSizePixel = 0
-car.Position = UDim2.new(0.109364271, 0, 0.362785757, 0)
-car.Size = UDim2.new(0, 20, 0, 20)
-car.Name = "CAR"
-car.Parent = script_2
+local farm3 = Instance.new("Frame")
+farm3.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
+farm3.BorderSizePixel = 0
+farm3.Position = UDim2.new(0.109364271, 0, 0.159214288, 0)
+farm3.Size = UDim2.new(0, 20, 0, 20)
+farm3.Name = "FARM 3"
+farm3.Parent = script_2
 
 local val_5 = Instance.new("Frame")
 val_5.BackgroundColor3 = Color3.new(1, 1, 1)
 val_5.BorderSizePixel = 0
 val_5.Position = UDim2.new(0.5, 0, 0.5, 0)
 val_5.Name = "Val"
-val_5.Parent = car
+val_5.Parent = farm3
 
 local fly_5 = Instance.new("TextButton")
 fly_5.Font = Enum.Font.FredokaOne
@@ -433,7 +432,7 @@ fly_5.BorderSizePixel = 2
 fly_5.Position = UDim2.new(0.1035714, 0, 0.101782821, 0)
 fly_5.Size = UDim2.new(0, 16, 0, 15)
 fly_5.Name = "Fly"
-fly_5.Parent = car
+fly_5.Parent = farm3
 
 local enabled_5 = Instance.new("BoolValue")
 enabled_5.Name = "Enabled"
@@ -445,14 +444,14 @@ animation_box_5.Parent = fly_5
 
 local text_label_5 = Instance.new("TextLabel")
 text_label_5.Font = Enum.Font.SourceSansLight
-text_label_5.Text = "CRASH CAR"
+text_label_5.Text = "CANDY FARM 3"
 text_label_5.TextColor3 = Color3.new(1, 1, 1)
 text_label_5.TextSize = 25
 text_label_5.TextStrokeColor3 = Color3.new(1, 1, 1)
 text_label_5.BackgroundColor3 = Color3.new(1, 1, 1)
 text_label_5.BackgroundTransparency = 1
-text_label_5.Position = UDim2.new(1.62500191, 0, 0, 0)
-text_label_5.Size = UDim2.new(0, 95, 0, 15)
+text_label_5.Position = UDim2.new(1.375, 0, 0, 0)
+text_label_5.Size = UDim2.new(0, 123, 0, 15)
 text_label_5.Parent = fly_5
 
 local animation2_7 = Instance.new("LocalScript")
@@ -470,22 +469,22 @@ object_7.Parent = animation2_7
 
 local animation_8 = Instance.new("LocalScript")
 animation_8.Name = "Animation"
-animation_8.Parent = car
+animation_8.Parent = farm3
 
-local farm3 = Instance.new("Frame")
-farm3.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
-farm3.BorderSizePixel = 0
-farm3.Position = UDim2.new(0.109364271, 0, 0.159214288, 0)
-farm3.Size = UDim2.new(0, 20, 0, 20)
-farm3.Name = "FARM 3"
-farm3.Parent = script_2
+local convert = Instance.new("Frame")
+convert.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
+convert.BorderSizePixel = 0
+convert.Position = UDim2.new(0.109364271, 0, 0.262785733, 0)
+convert.Size = UDim2.new(0, 20, 0, 20)
+convert.Name = "Convert"
+convert.Parent = script_2
 
 local val_6 = Instance.new("Frame")
 val_6.BackgroundColor3 = Color3.new(1, 1, 1)
 val_6.BorderSizePixel = 0
 val_6.Position = UDim2.new(0.5, 0, 0.5, 0)
 val_6.Name = "Val"
-val_6.Parent = farm3
+val_6.Parent = convert
 
 local fly_6 = Instance.new("TextButton")
 fly_6.Font = Enum.Font.FredokaOne
@@ -500,7 +499,7 @@ fly_6.BorderSizePixel = 2
 fly_6.Position = UDim2.new(0.1035714, 0, 0.101782821, 0)
 fly_6.Size = UDim2.new(0, 16, 0, 15)
 fly_6.Name = "Fly"
-fly_6.Parent = farm3
+fly_6.Parent = convert
 
 local enabled_6 = Instance.new("BoolValue")
 enabled_6.Name = "Enabled"
@@ -512,14 +511,14 @@ animation_box_6.Parent = fly_6
 
 local text_label_6 = Instance.new("TextLabel")
 text_label_6.Font = Enum.Font.SourceSansLight
-text_label_6.Text = "CANDY FARM 3"
+text_label_6.Text = "CONVERT DM"
 text_label_6.TextColor3 = Color3.new(1, 1, 1)
-text_label_6.TextSize = 25
+text_label_6.TextSize = 24
 text_label_6.TextStrokeColor3 = Color3.new(1, 1, 1)
 text_label_6.BackgroundColor3 = Color3.new(1, 1, 1)
 text_label_6.BackgroundTransparency = 1
-text_label_6.Position = UDim2.new(1.375, 0, 0, 0)
-text_label_6.Size = UDim2.new(0, 123, 0, 15)
+text_label_6.Position = UDim2.new(1.61115074, 0, 0, 0)
+text_label_6.Size = UDim2.new(0, 106, 0, 15)
 text_label_6.Parent = fly_6
 
 local animation2_8 = Instance.new("LocalScript")
@@ -537,22 +536,22 @@ object_8.Parent = animation2_8
 
 local animation_9 = Instance.new("LocalScript")
 animation_9.Name = "Animation"
-animation_9.Parent = farm3
+animation_9.Parent = convert
 
-local convert = Instance.new("Frame")
-convert.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
-convert.BorderSizePixel = 0
-convert.Position = UDim2.new(0.109364271, 0, 0.262785733, 0)
-convert.Size = UDim2.new(0, 20, 0, 20)
-convert.Name = "Convert"
-convert.Parent = script_2
+local farm3_2 = Instance.new("Frame")
+farm3_2.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
+farm3_2.BorderSizePixel = 0
+farm3_2.Position = UDim2.new(0.109364271, 0, 0.210999995, 0)
+farm3_2.Size = UDim2.new(0, 20, 0, 20)
+farm3_2.Name = "FARM 3"
+farm3_2.Parent = script_2
 
 local val_7 = Instance.new("Frame")
 val_7.BackgroundColor3 = Color3.new(1, 1, 1)
 val_7.BorderSizePixel = 0
 val_7.Position = UDim2.new(0.5, 0, 0.5, 0)
 val_7.Name = "Val"
-val_7.Parent = convert
+val_7.Parent = farm3_2
 
 local fly_7 = Instance.new("TextButton")
 fly_7.Font = Enum.Font.FredokaOne
@@ -567,7 +566,7 @@ fly_7.BorderSizePixel = 2
 fly_7.Position = UDim2.new(0.1035714, 0, 0.101782821, 0)
 fly_7.Size = UDim2.new(0, 16, 0, 15)
 fly_7.Name = "Fly"
-fly_7.Parent = convert
+fly_7.Parent = farm3_2
 
 local enabled_7 = Instance.new("BoolValue")
 enabled_7.Name = "Enabled"
@@ -579,14 +578,14 @@ animation_box_7.Parent = fly_7
 
 local text_label_7 = Instance.new("TextLabel")
 text_label_7.Font = Enum.Font.SourceSansLight
-text_label_7.Text = "CONVERT DM"
+text_label_7.Text = "CANDY FARM 4"
 text_label_7.TextColor3 = Color3.new(1, 1, 1)
-text_label_7.TextSize = 24
+text_label_7.TextSize = 25
 text_label_7.TextStrokeColor3 = Color3.new(1, 1, 1)
 text_label_7.BackgroundColor3 = Color3.new(1, 1, 1)
 text_label_7.BackgroundTransparency = 1
-text_label_7.Position = UDim2.new(1.61115074, 0, 0, 0)
-text_label_7.Size = UDim2.new(0, 106, 0, 15)
+text_label_7.Position = UDim2.new(1.375, 0, 0, 0)
+text_label_7.Size = UDim2.new(0, 123, 0, 15)
 text_label_7.Parent = fly_7
 
 local animation2_9 = Instance.new("LocalScript")
@@ -604,7 +603,7 @@ object_9.Parent = animation2_9
 
 local animation_10 = Instance.new("LocalScript")
 animation_10.Name = "Animation"
-animation_10.Parent = convert
+animation_10.Parent = farm3_2
 
 local visible = Instance.new("LocalScript")
 visible.Name = "VISIBLE"
@@ -640,7 +639,6 @@ box.Name = "BOX"
 box.Parent = acceuille_2
 
 local twitchbox = Instance.new("TextBox")
-twitchbox.CursorPosition = -1
 twitchbox.Font = Enum.Font.SourceSansBold
 twitchbox.Text = "@FrenchCanCanOff"
 twitchbox.TextColor3 = Color3.new(1, 1, 1)
@@ -657,9 +655,7 @@ local uicorner_4 = Instance.new("UICorner")
 uicorner_4.Parent = twitchbox
 
 local fr = Instance.new("TextBox")
-fr.CursorPosition = 7
 fr.Font = Enum.Font.SourceSansBold
-fr.SelectionStart = 1
 fr.Text = "French CanCan"
 fr.TextColor3 = Color3.new(1, 1, 1)
 fr.TextSize = 12
@@ -1036,7 +1032,7 @@ local local_script_6 = Instance.new("LocalScript")
 local_script_6.Parent = text_label_8
 
 local image_label_2 = Instance.new("ImageLabel")
-image_label_2.Image = "rbxassetid://4042159912"
+image_label_2.Image = "rbxassetid://6019584093"
 image_label_2.ScaleType = Enum.ScaleType.Crop
 image_label_2.SliceScale = 15
 image_label_2.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -1061,12 +1057,12 @@ text_label_9.Parent = image_label_2
 
 local text_label_10 = Instance.new("TextLabel")
 text_label_10.Font = Enum.Font.Creepster
-text_label_10.Text = "- farm 3 boosted"
+text_label_10.Text = "- farm 4 added for test"
 text_label_10.TextColor3 = Color3.new(0.333333, 1, 0.498039)
 text_label_10.TextSize = 35
 text_label_10.BackgroundColor3 = Color3.new(1, 1, 1)
 text_label_10.BackgroundTransparency = 1
-text_label_10.Position = UDim2.new(0.00408716965, 0, 0.210802928, 0)
+text_label_10.Position = UDim2.new(-0.0210926868, 0, 0.210802928, 0)
 text_label_10.Size = UDim2.new(0, 273, 0, 50)
 text_label_10.Parent = image_label_2
 
@@ -1118,7 +1114,7 @@ local_script_7.Parent = image_label_2
 local text_label_13 = Instance.new("TextLabel")
 text_label_13.Font = Enum.Font.Creepster
 text_label_13.Text = "TRADING BAN RISK !"
-text_label_13.TextColor3 = Color3.new(0.666667, 0, 0)
+text_label_13.TextColor3 = Color3.new(0, 0, 0)
 text_label_13.TextScaled = true
 text_label_13.TextSize = 35
 text_label_13.TextWrapped = true
@@ -1701,22 +1697,22 @@ task.spawn(function()
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0.8,0,0.8,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = true
 	
-			local Loop = game:GetService"RunService".RenderStepped:Connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-610.424, 101.467, -770.815)
+	
+			game:GetService"RunService".RenderStepped:Connect(function()
 				wait()
 				for i,v in pairs(game.Workspace.AppleBobbing:GetDescendants()) do -- get workspace and his dependencies
 					if v.Name == "Attachment" then -- replace "SubMachine Gun" with the object you want to fire the prompt
 						fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
 					end
 				end
-				
-			
 			end)
 	
 		else
 			script.Parent.Parent.Val:TweenPosition(UDim2.new(0.5,0,0.5,0),'Out','Linear',0.1)
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0,0,0,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = false
-			Loop:Disconnect()
+			
 				
 			end
 	
@@ -2592,15 +2588,26 @@ task.spawn(function()
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0.8,0,0.8,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = true
 			
-			_G.Bin = true
-			while _G.Bin do
-				wait(1)
-				for i,v in pairs(game:GetDescendants()) do
-					if v:IsA("MeshPart") and v.Anchored == false then
-						v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		
+			wait(0.5)
+			
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-614, 99, -777)
+			wait(1)
+	
+			repeat
+	
+				wait()
+				for i,v in pairs(game.Workspace.AppleBobbing:GetDescendants()) do 
+					if v.Name == "Attachment" then 
+						fireproximityprompt(v.ProximityPrompt) 
 					end
 				end
-			end
+	
+	
+				for _,v in next, game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Animator:GetPlayingAnimationTracks() do
+					v:AdjustSpeed(300)
+				end
+			until false
 	
 	
 	
@@ -2610,16 +2617,9 @@ task.spawn(function()
 			script.Parent.Enabled.Value = false
 	
 	
-			_G.Bin = false
-			while _G.Bin do
-				wait(1)
-				for i,v in pairs(game:GetDescendants()) do
-					if v:IsA("MeshPart") and v.Anchored == false then
-						v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
-					end
-				end
-			end
 	
+	
+		
 					
 				
 			end
@@ -2751,27 +2751,14 @@ task.spawn(function()
 			script.Parent.Parent.Val:TweenPosition(UDim2.new(0.1,0,0.1,0),'Out','Linear',0.1)
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0.8,0,0.8,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = true
-			
-		
-			wait(0.5)
-			
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-614, 99, -777)
-			wait(1)
 	
-			repeat
+			local french = game:GetService("Players").LocalPlayer.PlayerGui.CandyCounter.CandyCurrency.CandyAmount.Text
 	
-				wait()
-				for i,v in pairs(game.Workspace.AppleBobbing:GetDescendants()) do 
-					if v.Name == "Attachment" then 
-						fireproximityprompt(v.ProximityPrompt) 
-					end
-				end
-	
-			
-				for _,v in next, game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Animator:GetPlayingAnimationTracks() do
-					v:AdjustSpeed(300)
-				end
-			until false
+			game:GetService("Players").LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.CandyAmount.Text = french
+			wait()
+			firesignal(game.Players.LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.Convert.MouseButton1Click)
+			wait()
+			firesignal(game.Players.LocalPlayer.PlayerGui.CandyConversionScreen.PopUp.YesButton.MouseButton1Click)
 	
 	
 	
@@ -2780,10 +2767,6 @@ task.spawn(function()
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0,0,0,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = false
 	
-	
-	
-	
-		
 					
 				
 			end
@@ -2915,14 +2898,23 @@ task.spawn(function()
 			script.Parent.Parent.Val:TweenPosition(UDim2.new(0.1,0,0.1,0),'Out','Linear',0.1)
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0.8,0,0.8,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = true
+			
+		
+			wait(0.5)
+			
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-614, 99, -777)
+			wait(1)
 	
-			local french = game:GetService("Players").LocalPlayer.PlayerGui.CandyCounter.CandyCurrency.CandyAmount.Text
+			repeat
 	
-			game:GetService("Players").LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.CandyAmount.Text = french
-			wait()
-			firesignal(game.Players.LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.Convert.MouseButton1Click)
-			wait()
-			firesignal(game.Players.LocalPlayer.PlayerGui.CandyConversionScreen.PopUp.YesButton.MouseButton1Click)
+				wait()
+				for i,v in pairs(game.Workspace.AppleBobbing:GetDescendants()) do 
+					if v.Name == "Attachment" then 
+						fireproximityprompt(v.ProximityPrompt) 
+					end
+				end
+	
+			until false
 	
 	
 	
@@ -2931,6 +2923,10 @@ task.spawn(function()
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0,0,0,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = false
 	
+	
+	
+	
+		
 					
 				
 			end
