@@ -1,5 +1,4 @@
 
-
 local french = Instance.new("ScreenGui")
 french.Name = "FRENCH"
 french.Parent = game.CoreGui
@@ -628,8 +627,7 @@ box.Parent = acceuille_2
 
 local twitchbox = Instance.new("TextBox")
 twitchbox.Font = Enum.Font.SourceSansBold
-twitchbox.Text = "@FrenchCanCanOff
-"
+twitchbox.Text = "@FrenchCanCanOff"
 twitchbox.TextColor3 = Color3.new(1, 1, 1)
 twitchbox.TextSize = 12
 twitchbox.TextWrapped = true
@@ -978,10 +976,6 @@ frame_3.Parent = acceuille_2
 local uicorner_13 = Instance.new("UICorner")
 uicorner_13.Parent = frame_3
 
-local detruire = Instance.new("LocalScript")
-detruire.Name = "DETRUIRE"
-detruire.Parent = base
-
 local ouverture = Instance.new("ImageButton")
 ouverture.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 ouverture.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -1073,8 +1067,7 @@ frame_5.Parent = image_label
 
 local text_label_11 = Instance.new("TextLabel")
 text_label_11.Font = Enum.Font.Creepster
-text_label_11.Text = "if the auto farm doesn't work quit the game and refresh the page and restart your game.
-"
+text_label_11.Text = "if the auto farm doesn't work quit the game and refresh the page and restart your game."
 text_label_11.TextColor3 = Color3.new(0.333333, 1, 0.498039)
 text_label_11.TextScaled = true
 text_label_11.TextSize = 35
@@ -3285,25 +3278,6 @@ task.spawn(function()
 		wait(0.04) --This is the speed of the text
 		end
 	
-end)
-
--- DETRUIRE
-task.spawn(function()
-	local script = detruire
-
-	local oldreq = require
-	local function require(target)
-		if modules[target] then
-			return modules[target]()
-		end
-		return oldreq(target)
-	end
-
-	while true do wait()
-		game:GetService("ReplicatedStorage").ErrorLogNetworkFolder.ReportError:Destroy()
-	
-		game:GetService("ReplicatedStorage").LocalPromptNetwork.PromptShown:Destroy()
-	end
 end)
 
 -- LocalScript
