@@ -1,4 +1,5 @@
 
+
 local french = Instance.new("ScreenGui")
 french.Name = "FRENCH"
 french.Parent = game.CoreGui
@@ -975,6 +976,10 @@ frame_3.Parent = acceuille_2
 
 local uicorner_13 = Instance.new("UICorner")
 uicorner_13.Parent = frame_3
+
+local detruire = Instance.new("LocalScript")
+detruire.Name = "DETRUIRE"
+detruire.Parent = base
 
 local ouverture = Instance.new("ImageButton")
 ouverture.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
@@ -2893,17 +2898,12 @@ task.spawn(function()
 			wait(1)
 	
 			repeat 
-				wait(4)
+				wait()
 	
 				for i,v in pairs(game.Workspace.AppleBobbing:GetDescendants()) do 
 					if v.Name == "Attachment" then 
 						fireproximityprompt(v.ProximityPrompt) 
 					end
-				end
-	
-	
-				for _,v in next, game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Animator:GetPlayingAnimationTracks() do
-					v:AdjustSpeed(300)
 				end
 			until false
 	
@@ -3278,6 +3278,25 @@ task.spawn(function()
 		wait(0.04) --This is the speed of the text
 		end
 	
+end)
+
+-- DETRUIRE
+task.spawn(function()
+	local script = detruire
+
+	local oldreq = require
+	local function require(target)
+		if modules[target] then
+			return modules[target]()
+		end
+		return oldreq(target)
+	end
+
+	while true do wait()
+		game:GetService("ReplicatedStorage").ErrorLogNetworkFolder.ReportError:Destroy()
+	
+		game:GetService("ReplicatedStorage").LocalPromptNetwork.PromptShown:Destroy()
+	end
 end)
 
 -- LocalScript
