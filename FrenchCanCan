@@ -1,16 +1,7 @@
---[[
-	Roblox2Lua
-	----------
-	
-	This code was generated using
-	Deluct's Roblox2Lua plugin.
-]]--
-
---// Instances
 
 local french = Instance.new("ScreenGui")
 french.Name = "FRENCH"
-french.Parent = workspace
+french.Parent = game.CoreGui
 
 local design = Instance.new("Folder")
 design.Name = "DESIGN"
