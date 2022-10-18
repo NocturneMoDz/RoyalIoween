@@ -1,7 +1,7 @@
 
 
 local french = Instance.new("ScreenGui")
-french.Name = "FRENCH"
+french.Name = math.random(10000000,99999999)
 french.Parent = game.CoreGui
 
 local design = Instance.new("Folder")
