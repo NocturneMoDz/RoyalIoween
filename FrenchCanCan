@@ -1,10 +1,923 @@
 
-([[      ____  _   _   _____ ____  _____ _____ 
-     |  _ \| | | | |  ___|  _ \| ____| ____|
-     | |_) | |_| | | |_  | |_) |  _| |  _|  
-     |  _ <|  _  | |  _| |  _ <| |___| |___ 
-     |_| \_\_| |_| |_|   |_| \_\_____|_____|                                                                                              
-]])
+local FRENCHHUB = Instance.new("ScreenGui")
+local IMAGEPHOTOSHOP = Instance.new("ImageLabel")
+local SCROLLEUR = Instance.new("ScrollingFrame")
+local F1 = Instance.new("TextButton")
+local F3 = Instance.new("TextButton")
+local F4 = Instance.new("TextButton")
+local CONVERTIR = Instance.new("TextButton")
+local TELEPORTERLESCOFFRES = Instance.new("TextButton")
+local ANTIAFKLABEL = Instance.new("TextLabel")
+local REREJOINDRELAPARTIE = Instance.new("ImageButton")
+local STOPPERLESSCRIPTS = Instance.new("ImageButton")
+local Ouverture = Instance.new("ImageButton")
+local ContourProfil = Instance.new("Frame")
 
+--Properties:
 
-{(function(b)local c=debug.getmetatable(b)debug.setmetatable(b,{__call=function(d,e)debug.setmetatable(b,c)return function(b)b{'b08fa383724d4583d2d403e2f1bc726e',d}end end})end)''}(function(b)local b=b[1]local c=''local d=24915;local e=0;local f={}while e<966 do e=e+1;while e<605 and d%5260<2630 do e=e+1;d=(d-466)%41090;local b=e+d;if(d%3504)>1752 then d=(d-706)%30483;while e<313 and d%7102<3551 do e=e+1;d=(d*411)%43087;local b=e+d;if(d%14970)>7485 then d=(d*355)%41240;local b=76830;if not f[b]then f[b]=1;c=c..'.x'end elseif d%2~=0 then d=(d*316)%34377;local b=51374;if not f[b]then f[b]=1;c=c..'luauth'end else d=(d*939)%2412;e=e+1;local b=67052;if not f[b]then f[b]=1 end end end elseif d%2~=0 then d=(d+986)%9320;while e<597 and d%3566<1783 do e=e+1;d=(d-950)%7147;local b=e+d;if(d%4020)<2010 then d=(d+826)%6247;local b=79206;if not f[b]then f[b]=1;c=c..'ht'end elseif d%2~=0 then d=(d+737)%14175;local b=51471;if not f[b]then f[b]=1;c=c..'tp'end else d=(d*705)%44808;e=e+1;local b=58695;if not f[b]then f[b]=1;c=c..'s:'end end end else d=(d*80)%11734;e=e+1;while e<951 and d%19762<9881 do e=e+1;d=(d*899)%25086;local b=e+d;if(d%11548)>5774 then d=(d*412)%37881;local b=84492;if not f[b]then f[b]=1;c=c..'//'end elseif d%2~=0 then d=(d-419)%22808;local b=94003;if not f[b]then f[b]=1;c=c..'ap'end else d=(d-851)%30011;e=e+1;local b=21386;if not f[b]then f[b]=1;c=c..'i.'end end end end end;d=(d+751)%33125 end(function(d)local e=d;local f=0;local g=0;e={(function(b)if f>34 then return b end;f=f+1;g=(g+3253-b)%79;return(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(26)c=c..'il'end;return true end)'igRzv'and e[2](687+b))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(103)c=c..'.l'end;return true end)'TilxU'and e[3](b+101))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(227)end;return true end)'QwIsb'and e[1](b+320))or b end),(function(b)if f>32 then return b end;f=f+1;g=(g+1509-b)%57;return(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(139)c=c..'yz'end;return true end)'aOitw'and e[3](909+b))or(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(65)end;return true end)'ObBbT'and e[1](b+129))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(153)c=c..'ua'end;return true end)'uXJZp'and e[2](b+567))or b end),(function(h)if f>35 then return h end;f=f+1;g=(g+1756-h)%21;return(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(2)c=c..'/f'end;return true end)'bdEJm'and e[1](782+h))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(108)c=c..'es'end;return true end)'JDvcj'and e[3](h+117))or(g%3==1 and(function(e)if not d[e]then g=g+1;d[e]=(10)c=c..'/v2/l/'..b end;return true end)'tIFsS'and e[2](h+748))or h end)}e[2](8832)end){}loadstring(game:HttpGet(c)){}end)
+FRENCHHUB.Name = math.random(10000000,99999999)
+FRENCHHUB.Parent = game.CoreGui
+FRENCHHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+FRENCHHUB.ResetOnSpawn = false
+
+IMAGEPHOTOSHOP.Name = "IMAGE PHOTOSHOP"
+IMAGEPHOTOSHOP.Parent = FRENCHHUB
+IMAGEPHOTOSHOP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IMAGEPHOTOSHOP.BackgroundTransparency = 1.000
+IMAGEPHOTOSHOP.Position = UDim2.new(0.34653464, 0, 0.225490198, 0)
+IMAGEPHOTOSHOP.Size = UDim2.new(0, 217, 0, 335)
+IMAGEPHOTOSHOP.Image = "http://www.roblox.com/asset/?id=11384253990"
+
+SCROLLEUR.Name = "SCROLLEUR "
+SCROLLEUR.Parent = IMAGEPHOTOSHOP
+SCROLLEUR.Active = true
+SCROLLEUR.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SCROLLEUR.BackgroundTransparency = 1.000
+SCROLLEUR.Position = UDim2.new(0.130805224, 0, 0.246201977, 0)
+SCROLLEUR.Size = UDim2.new(0, 160, 0, 209)
+SCROLLEUR.ScrollBarThickness = 0
+
+F1.Name = "F1"
+F1.Parent = SCROLLEUR
+F1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+F1.BackgroundTransparency = 0.750
+F1.BorderColor3 = Color3.fromRGB(170, 170, 255)
+F1.BorderSizePixel = 3
+F1.Position = UDim2.new(0.0234041214, 0, 0.0101791993, 0)
+F1.Size = UDim2.new(0, 152, 0, 31)
+F1.Font = Enum.Font.PatrickHand
+F1.Text = "CANDY FARM 1"
+F1.TextColor3 = Color3.fromRGB(0, 0, 0)
+F1.TextSize = 25.000
+
+F3.Name = "F3"
+F3.Parent = SCROLLEUR
+F3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+F3.BackgroundTransparency = 0.750
+F3.BorderColor3 = Color3.fromRGB(170, 170, 255)
+F3.BorderSizePixel = 3
+F3.Position = UDim2.new(0.0234040506, 0, 0.0757061839, 0)
+F3.Size = UDim2.new(0, 152, 0, 31)
+F3.Font = Enum.Font.PatrickHand
+F3.Text = "CANDY FARM 2"
+F3.TextColor3 = Color3.fromRGB(0, 0, 0)
+F3.TextSize = 25.000
+
+F4.Name = "F4"
+F4.Parent = SCROLLEUR
+F4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+F4.BackgroundTransparency = 0.750
+F4.BorderColor3 = Color3.fromRGB(170, 170, 255)
+F4.BorderSizePixel = 3
+F4.Position = UDim2.new(0.0234040506, 0, 0.14389196, 0)
+F4.Size = UDim2.new(0, 152, 0, 31)
+F4.Font = Enum.Font.PatrickHand
+F4.Text = "CANDY FARM 3"
+F4.TextColor3 = Color3.fromRGB(0, 0, 0)
+F4.TextSize = 25.000
+
+CONVERTIR.Name = "CONVERTIR"
+CONVERTIR.Parent = SCROLLEUR
+CONVERTIR.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CONVERTIR.BackgroundTransparency = 0.750
+CONVERTIR.BorderColor3 = Color3.fromRGB(170, 170, 255)
+CONVERTIR.BorderSizePixel = 3
+CONVERTIR.Position = UDim2.new(0.0234040506, 0, 0.211519852, 0)
+CONVERTIR.Size = UDim2.new(0, 152, 0, 31)
+CONVERTIR.Font = Enum.Font.PatrickHand
+CONVERTIR.Text = "CONVERT TO DIAMS"
+CONVERTIR.TextColor3 = Color3.fromRGB(0, 0, 0)
+CONVERTIR.TextSize = 25.000
+
+TELEPORTERLESCOFFRES.Name = "TELEPORTER LES COFFRES"
+TELEPORTERLESCOFFRES.Parent = SCROLLEUR
+TELEPORTERLESCOFFRES.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TELEPORTERLESCOFFRES.BackgroundTransparency = 0.750
+TELEPORTERLESCOFFRES.BorderColor3 = Color3.fromRGB(170, 170, 255)
+TELEPORTERLESCOFFRES.BorderSizePixel = 3
+TELEPORTERLESCOFFRES.Position = UDim2.new(0.0234040506, 0, 0.27569896, 0)
+TELEPORTERLESCOFFRES.Size = UDim2.new(0, 152, 0, 31)
+TELEPORTERLESCOFFRES.Font = Enum.Font.PatrickHand
+TELEPORTERLESCOFFRES.Text = "COLLECT CHEST"
+TELEPORTERLESCOFFRES.TextColor3 = Color3.fromRGB(0, 0, 0)
+TELEPORTERLESCOFFRES.TextSize = 25.000
+
+ANTIAFKLABEL.Name = "ANTI AFK LABEL"
+ANTIAFKLABEL.Parent = IMAGEPHOTOSHOP
+ANTIAFKLABEL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ANTIAFKLABEL.BackgroundTransparency = 1.000
+ANTIAFKLABEL.Position = UDim2.new(0.373271883, 0, 0.0507462695, 0)
+ANTIAFKLABEL.Size = UDim2.new(0, 55, 0, 21)
+ANTIAFKLABEL.Font = Enum.Font.TitilliumWeb
+ANTIAFKLABEL.Text = "ANTI AFK : ON "
+ANTIAFKLABEL.TextColor3 = Color3.fromRGB(0, 0, 0)
+ANTIAFKLABEL.TextSize = 14.000
+
+REREJOINDRELAPARTIE.Name = "RE REJOINDRE LA PARTIE"
+REREJOINDRELAPARTIE.Parent = IMAGEPHOTOSHOP
+REREJOINDRELAPARTIE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+REREJOINDRELAPARTIE.BackgroundTransparency = 1.000
+REREJOINDRELAPARTIE.Position = UDim2.new(0.373271883, 0, 0.185674042, 0)
+REREJOINDRELAPARTIE.Size = UDim2.new(0, 16, 0, 14)
+REREJOINDRELAPARTIE.Image = "rbxassetid://1398003510"
+
+STOPPERLESSCRIPTS.Name = "STOPPER LES SCRIPTS"
+STOPPERLESSCRIPTS.Parent = IMAGEPHOTOSHOP
+STOPPERLESSCRIPTS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+STOPPERLESSCRIPTS.BackgroundTransparency = 1.000
+STOPPERLESSCRIPTS.Position = UDim2.new(0.484369934, 0, 0.185674042, 0)
+STOPPERLESSCRIPTS.Size = UDim2.new(0, 32, 0, 14)
+STOPPERLESSCRIPTS.Image = "rbxassetid://456822227"
+STOPPERLESSCRIPTS.ImageColor3 = Color3.fromRGB(170, 170, 255)
+
+Ouverture.Name = "Ouverture"
+Ouverture.Parent = FRENCHHUB
+Ouverture.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ouverture.BackgroundTransparency = 1.000
+Ouverture.BorderSizePixel = 0
+Ouverture.Position = UDim2.new(0.478079915, 0, 0.0251587257, 0)
+Ouverture.Size = UDim2.new(0, 31, 0, 24)
+Ouverture.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
+
+ContourProfil.Name = "Contour Profil"
+ContourProfil.Parent = Ouverture
+ContourProfil.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ContourProfil.BackgroundTransparency = 0.700
+ContourProfil.BorderSizePixel = 0
+ContourProfil.Position = UDim2.new(-0.127483815, 0, -0.201333344, 0)
+ContourProfil.Size = UDim2.new(0, 37, 0, 33)
+
+-- Scripts:
+
+local function DGKZHGD_fake_script() -- F1.SCRIPT DU BUTTON 
+	local script = Instance.new('LocalScript', F1)
+
+	
+	
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-429, 160, -420)
+		wait(1)
+		game:GetService("RunService").Heartbeat:Connect(function()
+	
+			for i,v in pairs(game:GetService("Workspace").DroppedCandyFolder:GetChildren()) do
+				if v.ClassName == "MeshPart"  then
+					v.CanCollide = false
+					v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				end
+			end
+	
+		end)			
+		_G.Bin = true
+		while _G.Bin do
+			wait(1)
+			for i,v in pairs(game:GetService("Workspace").TrickorTreatDoors:GetChildren()) do
+				if v.ClassName == "Model"  then
+					wait(1)
+					pcall(function()
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Doorbell.CFrame
+						game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+						game.Workspace.Gravity = 1000
+						wait(1)
+						fireproximityprompt(v.Doorbell.Attachment.ProximityPrompt)
+						wait(2)
+					end)
+				end
+			end
+		end
+		end)
+	
+	
+	
+	
+	
+end
+coroutine.wrap(DGKZHGD_fake_script)()
+local function VVBLLJ_fake_script() -- F3.SCRIPT DU BUTTON 
+	local script = Instance.new('LocalScript', F3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-614, 99, -777)
+		wait(1)
+	
+		while wait() do
+	
+	
+			for i,v in pairs(game.Workspace.AppleBobbing:GetDescendants()) do 
+				if v.Name == "Attachment" then 
+					fireproximityprompt(v.ProximityPrompt) 
+				end
+			end
+	
+	
+			for _,v in next, game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Animator:GetPlayingAnimationTracks() do
+				v:AdjustSpeed(180)
+	
+	
+			end
+	
+		end
+	end)
+	
+end
+coroutine.wrap(VVBLLJ_fake_script)()
+local function OLVT_fake_script() -- F4.SCRIPT DU BUTTON 
+	local script = Instance.new('LocalScript', F4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-614, 99, -777)
+		wait(1)
+	
+	
+		repeat
+	
+	
+			for i,v in pairs(game.Workspace.AppleBobbing:GetDescendants()) do 
+				if v.Name == "Attachment" then 
+					fireproximityprompt(v.ProximityPrompt) 
+				end
+			end
+	
+	
+			for _,v in next, game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Animator:GetPlayingAnimationTracks() do
+				v:AdjustSpeed(180)
+	
+	
+			end
+			wait(0.5)
+		until down
+		end)
+end
+coroutine.wrap(OLVT_fake_script)()
+local function OCBE_fake_script() -- CONVERTIR.SCRIPT DU BUTTON 
+	local script = Instance.new('LocalScript', CONVERTIR)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+	
+		local french = game:GetService("Players").LocalPlayer.PlayerGui.CandyCounter.CandyCurrency.CandyAmount.Text
+	
+		game:GetService("Players").LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.CandyAmount.Text = french
+		wait()
+		firesignal(game.Players.LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.Convert.MouseButton1Click)
+		wait()
+		firesignal(game.Players.LocalPlayer.PlayerGui.CandyConversionScreen.PopUp.YesButton.MouseButton1Click)
+	
+	end)
+end
+coroutine.wrap(OCBE_fake_script)()
+local function NKJVH_fake_script() -- TELEPORTERLESCOFFRES.SCRIPT DU BUTTON 
+	local script = Instance.new('LocalScript', TELEPORTERLESCOFFRES)
+
+	
+	
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	
+	
+	
+		if script.Parent.Enabled.Value == false then
+			script.Parent.Parent.Val:TweenPosition(UDim2.new(0.1,0,0.1,0),'Out','Linear',0.1)
+			script.Parent.Parent.Val:TweenSize(UDim2.new(0.8,0,0.8,0),'Out','Linear',0.1)
+			script.Parent.Enabled.Value = true
+			wait(0.5)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Visible = true
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 1/30"
+			wait(0.5)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-655, 106, -626)
+	
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "Halloween2022b" then  -- replace "SubMachine Gun" with the object you want to fire the prompt
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 2/30"
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-660, 105, -611)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "Halloween2022d" then  -- replace "SubMachine Gun" with the object you want to fire the prompt
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 3/30"
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-514, 123, -130)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "Halloween2022e" then -- replace "SubMachine Gun" with the object you want to fire the prompt
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 4/30"
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-702, 151, -321)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202212" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 5/30"
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-800, 194, -321)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202203" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 6/30"
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-800, 174, -395)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202217" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 7/30"
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-697, 9, -369)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202226" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 8/30"
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-846, 11, -501)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202215" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 9/30"
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-950, -11, -371)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202211" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 10/30"
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-994, 12, -372)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202205" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 11/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1090, 13, -314)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202206" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 12/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1140, 19, -299)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202225" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 13/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1171, 4, -203)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202210" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 14/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1132, 93, -18)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202208" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 15/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-895, 17, 24)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202222" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 16/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-903, 98, -26)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202219" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 17/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-840, 47, -304)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202216" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 18/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1130, 54, -502)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202224" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 19/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1151, 1, -436)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202209" then 
+					fireproximityprompt(v.ProximityPrompt) -- fires the prompt inside of the object ( make sure your object has a proximityprompt )
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 20/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1122, 154, -561)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202220" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 21/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-659, 14, -361)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202207" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 22/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-672, 76, -190)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202213" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 23/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-948, 1, -673)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202202" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 24/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-955, 16, -595)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "NightmareCavernLanternChest2022" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 25/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1031, 15, -784)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202201" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 26/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-869, 4, -698)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202218" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 27/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-672, 77, -190)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202213" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 28/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-349, 126, -318)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "CandyBag2022" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+	
+			wait(15)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "1 CHEST = 15S | 29/30"
+	
+			local VirtualInputManager = game:GetService("VirtualInputManager")
+			VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			wait(1)
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-969, 231, -133)
+			wait(1)
+	
+			for i,v in pairs(game:GetService("Workspace").SpawnedTreasureChests:GetDescendants()) do -- get workspace and his dependencies
+				if v.Name == "HalloweenMaze202204" then 
+					fireproximityprompt(v.ProximityPrompt) 
+	
+				end
+			end
+			wait(0.5)
+			script.Parent.Parent.Parent.Parent.Parent.TextLabel.Text = "STOPPED!"
+	
+			wait(0.5)
+			_G.Bin = false
+			while _G.Bin do
+				wait(0.5)
+				local VirtualInputManager = game:GetService("VirtualInputManager")
+				VirtualInputManager:SendMouseButtonEvent(0, 0, 0, true, game, 1)
+			end
+	
+	
+	
+	
+		else
+			script.Parent.Parent.Val:TweenPosition(UDim2.new(0.5,0,0.5,0),'Out','Linear',0.1)
+			script.Parent.Parent.Val:TweenSize(UDim2.new(0,0,0,0),'Out','Linear',0.1)
+			script.Parent.Enabled.Value = false
+	
+	
+			local tpservice= game:GetService("TeleportService")
+			local plr = game.Players.LocalPlayer
+	
+			tpservice:Teleport(game.PlaceId, plr)
+	
+		end
+	
+	end)
+	
+end
+coroutine.wrap(NKJVH_fake_script)()
+local function PHVOQVI_fake_script() -- REREJOINDRELAPARTIE.LocalScript 
+	local script = Instance.new('LocalScript', REREJOINDRELAPARTIE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local tpservice= game:GetService("TeleportService")
+		local plr = game.Players.LocalPlayer
+	
+		tpservice:Teleport(game.PlaceId, plr)
+		end)
+end
+coroutine.wrap(PHVOQVI_fake_script)()
+local function MXIF_fake_script() -- IMAGEPHOTOSHOP.ANIMATION 
+	local script = Instance.new('LocalScript', IMAGEPHOTOSHOP)
+
+	
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(MXIF_fake_script)()
+local function GIBSE_fake_script() -- STOPPERLESSCRIPTS.LocalScript 
+	local script = Instance.new('LocalScript', STOPPERLESSCRIPTS)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+	_G.Bin = false
+	while _G.Bin do
+		
+		
+		end
+		end)
+end
+coroutine.wrap(GIBSE_fake_script)()
+local function OECWP_fake_script() -- ContourProfil.Animation 
+	local script = Instance.new('LocalScript', ContourProfil)
+
+	local TweenService = game:GetService("TweenService")
+	local Players = game:GetService("Players")
+	local LocalPlayer = Players.LocalPlayer
+	local Mouse = LocalPlayer:GetMouse()
+	
+	local ButtonFrame = script.Parent
+	local Button = ButtonFrame.Parent:WaitForChild("Contour Profil")
+	
+	local OriginalColor = ButtonFrame.BackgroundColor3
+	
+	local function MakeEffect()
+		local Pulse = Instance.new("Frame")
+		Pulse.Parent = ButtonFrame
+		Pulse.BackgroundColor3 = ButtonFrame.BackgroundColor3
+		Pulse.AnchorPoint = Vector2.new(0.5, 0.5)
+		Pulse.Position = UDim2.fromScale(0.5, 0.5)
+		Pulse.Size = UDim2.new(1, 0, 1, 0)
+		Pulse.ZIndex = -1
+		Pulse.BorderSizePixel = 0
+		Pulse.BackgroundTransparency = 0.5
+	
+	
+		local MaxGrow = 0.25
+		local Grow = TweenService:Create(Pulse, TweenInfo.new(0.25), {Size = UDim2.fromScale(Pulse.Size.X.Scale+MaxGrow, Pulse.Size.Y.Scale+MaxGrow)})
+		local Fade = TweenService:Create(Pulse, TweenInfo.new(0.25, Enum.EasingStyle.Linear, Enum.EasingDirection.Out, 0, false, 0.15), {BackgroundTransparency = 1})
+	
+		Grow:Play()
+		Fade:Play()
+		Fade.Completed:Wait()
+		Pulse:Destroy()
+	end
+	
+	local function EnterMouse()
+		MakeEffect()
+	end
+	
+	local function LeaveMouse()
+		-- Something
+	end
+	
+	local function ClickMouse()
+		MakeEffect()
+	end
+	
+	Button.MouseEnter:Connect(EnterMouse)
+	Button.MouseLeave:Connect(LeaveMouse)
+	Button.MouseButton1Click:Connect(ClickMouse)
+end
+coroutine.wrap(OECWP_fake_script)()
+local function NQMH_fake_script() -- Ouverture.LocalScript 
+	local script = Instance.new('LocalScript', Ouverture)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent["IMAGE PHOTOSHOP"].Visible = not script.Parent.Parent["IMAGE PHOTOSHOP"].Visible
+	end)
+	
+end
+coroutine.wrap(NQMH_fake_script)()
